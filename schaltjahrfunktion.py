@@ -26,3 +26,6 @@ def test_high():
 
 def test_highfalse():
     assert shiftyeartester(2001) == False
+
+def test_notdiv400():
+    assert shiftyeartester(1900) == False
