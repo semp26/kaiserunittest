@@ -25,4 +25,4 @@ def test_div():
     assert calculator(2, 1, '/') == 2
 
 def test_fail():
-    assert calculator() == 'Invalid operator'
+    assert calculator(1, 2, 3) == 'Invalid operator'
