@@ -1,4 +1,3 @@
 .coverage 
 __pychche__/
 .pytest_cache/
-htmlcov/
